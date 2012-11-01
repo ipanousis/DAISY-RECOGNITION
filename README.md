@@ -9,3 +9,5 @@ The topic will involve real-time dense (spatial+temporal) object recognition
 in video using DAISY (see DAISY-BP/ repository). This may be further
 extended for more robustness as well as flexibility (multi-body,dynamic 
 scene,tracking/prediction).
+
+The project will, similarly to DAISY-BP, be developed for GPU using OpenCL.
