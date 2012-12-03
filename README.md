@@ -1,13 +1,17 @@
 DAISY-RECOGNITION
 =================
 
-Master's project for 2012/13 is still in the proposal stage. 
-The proposal is upcoming in the next few days and work will
-begin.
-
-The topic will involve real-time dense (spatial+temporal) object recognition 
+The topic involves real-time dense (spatial+temporal) object recognition 
 in video using DAISY (see DAISY-BP/ repository). This may be further
 extended for more robustness as well as flexibility (multi-body,dynamic 
 scene,tracking/prediction).
 
 The project will, similarly to DAISY-BP, be developed for GPU using OpenCL.
+
+The current stage is the design of the algorithm in MATLAB.
+
+At this moment the rotational and scaling capability of the DAISY
+descriptor is being thoroughly measured in order to determine
+the granularity of the corresponding parameters required to test 
+for during the matching to a video frame.
+
